@@ -31,6 +31,7 @@ a{
     text-align: center;
     font-size: 1.5em;
     background-color: #19282F;
+    border: solid 3px #B33030;
     border-radius: 25px;
     margin-left: 15%;
     margin-right: 15%;
@@ -54,4 +55,12 @@ a{
 .project-img{
     width: 40%;
     height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .about-main{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1em;
+    }
 }
