@@ -109,6 +109,15 @@ a{
     padding-bottom: 2%;
 }
 
+/* Custom Landings */
+
+.project-description{
+    background-color: #B33030;
+    font-size: 1.5em;
+    margin-top: 2%;
+    padding: 5%;
+    text-align: center;
+}
 
 @media screen and (max-width: 800px) {
     main{
@@ -128,6 +137,10 @@ a{
     .project-img{
         width: 100%;
         height: auto;
+    }
+
+    .project-description{
+        font-size: 1.2em;
     }
 
     .business-card{
