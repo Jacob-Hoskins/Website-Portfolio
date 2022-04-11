@@ -94,4 +94,9 @@ main{
         margin-bottom: 4%;
         font-size: 1em;
     }
+
+    .project-img{
+        width: 70%;
+        height: auto;
+    }
 }
