@@ -96,7 +96,7 @@ main{
     }
 
     .projects{
-        gap: 5px;
+        gap: 15px;
     }
 
     .project-img{
