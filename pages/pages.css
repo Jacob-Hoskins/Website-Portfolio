@@ -21,6 +21,11 @@ a{
     color: #A1B57D;
 }
 
+.here-nav{
+    font-weight: bold;
+    font-style: italic;
+}
+
 
 /* About page */
 .about-header{
@@ -43,10 +48,20 @@ a{
 
 
 /* Projects page */
+
+main{
+    background-color: #19282F;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
 .projects{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5%;
 }
 
 .project-container{
@@ -57,13 +72,22 @@ a{
 }
 
 .project-img{
-    width: 40%;
+    width: 50%;
     height: auto;
 }
 
-
+.grabber-1-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
 
 @media screen and (max-width: 800px) {
+    main{
+        font-size: 1em;
+    }
     .about-main{
         margin-left: 0;
         margin-right: 0;
