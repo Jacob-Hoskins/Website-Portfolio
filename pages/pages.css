@@ -95,6 +95,10 @@ main{
         font-size: 1em;
     }
 
+    .projects{
+        gap: 5px;
+    }
+
     .project-img{
         width: 100%;
         height: auto;
