@@ -138,6 +138,10 @@ a{
         gap: 15px;
     }
 
+    .project-main{
+        font-size: 1em;
+    }
+
     .project-img{
         width: 100%;
         height: auto;
