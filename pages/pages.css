@@ -60,6 +60,7 @@ a{
 
 .project-container-1, .project-container-2{
     display: flex;
+    flex-shrink: 1;
     justify-content: center;
     align-items: center;
     padding: 5%;
