@@ -89,6 +89,16 @@ a{
 
 
 /* Contact page */
+
+.me-img{
+    width: 15%;
+    height: auto;
+    background-color: #B33030;
+    border: solid #19282F 3px;
+    border-radius: 75%;
+    margin: auto;
+}
+
 .business-card{
     display: flex;
     flex-direction: column;
@@ -121,6 +131,15 @@ a{
     padding: 5%;
     text-align: center;
 }
+
+/* Services */
+.services-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    gap: 3%;
+}
+
 
 @media screen and (max-width: 800px) {
     main{
